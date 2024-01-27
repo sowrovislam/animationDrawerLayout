@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout
+    android:id="@+id/drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <nl.psdcompany.duonavigationdrawer.views.DuoMenuView
+        android:tag="menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="md sowrov islam"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="67dp"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="md sowrov islam"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="67dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </nl.psdcompany.duonavigationdrawer.views.DuoMenuView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+
+
+        android:tag="content"
+        android:elevation="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:background="#FF9800"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout>
